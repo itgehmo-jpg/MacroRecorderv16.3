@@ -12,7 +12,7 @@ jobs:
       - run: python -m pip install --upgrade pip
       - run: pip install pyinstaller pynput schedule pywin32 pywin32-ctypes
       - run: >
-          pyinstaller --onefile --windowed --name MacroRecorder
+          pyinstaller --onefile --windowed --name UO Macro Helper
           --hidden-import win32gui --hidden-import win32con
           --hidden-import win32api --hidden-import win32process
           --hidden-import pywintypes
